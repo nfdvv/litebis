@@ -144,6 +144,16 @@ li {
 .header__drop-down.drop-down + .header__link-blog {
   margin-left: 20px;
 }
+.header__menu-btn{
+  width: 25px;
+  display: none;
+}
+.header__menu-row{
+  width: 100%;
+  background-color: #181616;
+  height: 3px;
+  margin-bottom: 2px;
+}
 .slider {
   background-color: #efefef;
   padding: 30px 0 50px;
