@@ -15,7 +15,11 @@ $(function(){
     nextArrow: '<button type="button" class="slick-next"><img src="images/arrow-next-circle.svg" alt="arrow-next"></button>',
   });
   $('.header__menu-btn').on('click', function(){
-    $('.header__menu ul').slideToggle();
+    $('.header__menu > ul').slideToggle();
+  });
+
+  $('.header__drop-down.drop-down').on('click', function(){
+    $(this).children('.drop-down__list').slideToggle();
   });
 });
 
